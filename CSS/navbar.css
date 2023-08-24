@@ -1,0 +1,151 @@
+@media (max-width: 320px) {
+    /* navbar */
+    .navbar {
+      background-color: #8fb3ff;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      font-family: "barlow";
+    }
+  
+    .navbar ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .navbar li a {
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      text-decoration: none; /* Remove underline for links */
+      color: white;
+    }
+  
+    /* hover styles for the navigation bar links */
+    .navbar li a:hover {
+      background-color: #ebf1ff;
+      color: #8fb3ff;
+    }
+  
+    footer {
+      display: flex;
+      font-family: "Barlow";
+      font-weight: 700;
+      background-color: #8fb3ff;
+      height: 50px;
+      padding: 20px;
+      justify-content: center;
+      color: white;
+      align-items: center;
+      position: relative;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+  
+  /* screens between 320px and 600px */
+  @media (max-width: 600px) and (min-width: 320px) {
+    /* navbar */
+    .navbar {
+      background-color: #8fb3ff;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      font-family: "barlow";
+    }
+  
+    /* styles for the navigation bar list */
+    .navbar ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .navbar li a {
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: white;
+    }
+  
+    
+    .navbar li a:hover {
+      background-color: #ebf1ff;
+      color: #8fb3ff;
+    }
+}
+/* screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+    /* navbar */
+    .navbar {
+      background-color: #8fb3ff;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      font-family: "barlow";
+    }
+  
+    /* styles for the navigation bar list */
+    .navbar ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .navbar li a {
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: white;
+    }
+  
+    /* hover styles for the navigation bar links */
+    .navbar li a:hover {
+      background-color: #ffffff;
+      color: #90a8c3;
+    }
+}
+/* screens 901px and above */
+@media (min-width: 901px) {
+    /* navbar */
+    .navbar {
+      background-color: #8fb3ff;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      font-family: "barlow";
+    }
+  
+    /* styles for the navigation bar list */
+    .navbar ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+    }
+  
+    .navbar li a {
+      display: inline-block;
+      margin-right: 10px;
+      border-radius: 5px;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: white;
+    }
+  
+    /* hover styles for the navigation bar links */
+    .navbar li a:hover {
+      background-color: #ffffff;
+      color: #90a8c3;
+    }
+
+}

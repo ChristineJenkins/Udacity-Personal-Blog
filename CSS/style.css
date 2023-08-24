@@ -1,0 +1,86 @@
+@import "/CSS/fonts.css";
+@import "/CSS/header.css";
+@import "/CSS/navbar.css";
+
+/* needs to be the same for all sizes */
+footer img {
+  height: 16px;
+  width: 16px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #242424;
+}
+/* screens 320px or below */
+@media (max-width: 320px) {
+  footer {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: #8fb3ff;
+    height: 50px;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+/* screens between 320px and 600px */
+@media (max-width: 600px) and (min-width: 320px) {
+  footer {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: #8fb3ff;
+    height: 50px;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+/* screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  footer {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: #8fb3ff;
+    height: 50px;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+/* screens 901px and above */
+@media (min-width: 901px) {
+  footer {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: #8fb3ff;
+    height: 50px;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}

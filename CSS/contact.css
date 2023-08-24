@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+
+.container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 10% 65% 10%;
+  gap: 2px 0px;
+  grid-template-areas:
+    "hd"
+    "nv"
+    "bd"
+    "ft";
+  min-height: auto;
+}
+
+header {
+  display: grid;
+  grid-area: hd;
+
+}
+.navbar {
+  display: grid;
+  grid-area: nv;
+}
+.info{
+  grid-area: bd;
+  font-family:Barlow ;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+
+}
+.info h1{
+  color: black;
+}
+.bio{
+  display:flex;
+  text-align: center;
+}
+
+footer {
+  grid-area: ft;
+  position: relative;
+}
