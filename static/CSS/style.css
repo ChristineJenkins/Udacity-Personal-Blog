@@ -1,6 +1,6 @@
-@import "/CSS/fonts.css";
-@import "/CSS/header.css";
-@import "/CSS/navbar.css";
+@import "/static/CSS/fonts.css";
+@import "/static/CSS/header.css";
+@import "/static/CSS/navbar.css";
 
 /* needs to be the same for all sizes */
 footer img {
